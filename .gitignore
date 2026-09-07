@@ -1,0 +1,70 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE settings
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.autosave
+*.orig
+
+# Logs and local environment files
+*.log
+.env
+.env.*
+!.env.example
+
+# Firmware build output and caches
+build/
+out/
+.cache/
+.pio/
+.pioenvs/
+.piolibdeps/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+*.elf
+*.map
+*.hex
+*.bin
+*.o
+*.obj
+*.a
+*.d
+
+# Python tooling sometimes used by hardware scripts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# EDA lock, cache, and local recovery files
+*.lck
+*.lock
+*.lock_preview
+*.recover
+*.bck
+
+# Generated reports and simulation output
+*.drc
+*.erc
+*.raw
+*.sim
+
+# Local archives and exports not intended for source control
+*.7z
+*.rar
